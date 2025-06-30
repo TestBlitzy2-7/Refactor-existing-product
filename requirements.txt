@@ -1,0 +1,11 @@
+# Python dependency specification for Hello World Flask application
+# Replaces package.json from Node.js implementation
+# 
+# This file maintains the minimal dependency philosophy of the original
+# Node.js implementation while providing the Flask framework needed for
+# HTTP server functionality in Python.
+#
+# Installation: pip install -r requirements.txt
+# Compatible with Python 3.8+
+
+Flask>=2.0.0,<3.0.0
